@@ -1,0 +1,12 @@
+.body{
+     background-color: gray;
+     box-shadow: 5px 15px 15px rgba(0, 0, 0, 0.3);
+}
+.button{
+     border-radius: 4px;
+     background-color:rgba(0, 0, 0, 0.658);
+     box-shadow: inset 5px 15px 15px rgba(0, 0, 0, 0.137);
+}
+.images{
+     border-radius: 4px;
+}
