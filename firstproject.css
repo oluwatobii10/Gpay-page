@@ -9,7 +9,7 @@
     width: 200px;
     height: 250px;
     position: absolute;
-              top: 22%;
+              top: 20%;
               left: 80%;
               border-radius: 10px;
               overflow: hidden;
@@ -26,4 +26,5 @@
                   top:86% ;
                   left: 65%;
     }
+    
 }
