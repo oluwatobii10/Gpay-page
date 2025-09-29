@@ -18,15 +18,29 @@
 .credit{
     background-color: cadetblue;
 }
+
+@media (max-width: 576px) {
+  .main{
+    max-width: 100%;
+    font-size: large;
+  }
+  .creditcard{
+       position: absolute;
+                 top: 71%;
+                 left: 60%;
+  }
+}
+
 @media (max-width:425px){
     .main{
         max-width: 100%;
+        font-size: larger;
     }
     .creditcard{
         width: 150px;
         height: 200px;
         position: absolute;
-                  top:84% ;
+                  top:80% ;
                   left: 60%;
     }
     
@@ -38,19 +52,9 @@
   }
   .creditcard{
     position: absolute;
-             top: 109%;
+             top: 120%;
              left: 60%;
   }
 }
-@media (max-width: 576px) {
-  .min{
-    max-width: 100%;
-    font-size: large;
-  }
-  .creditcard{
-       position: absolute;
-                 top: 71%;
-                 left: 60%;
-  }
-}
+
 
